@@ -3,7 +3,8 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-image: url(../brayden-drummond.github.io/images/stephen-leonardi-NH-vr7Eivu0-unsplash.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  height: 100vh; 
 }
 
 .topnav {
