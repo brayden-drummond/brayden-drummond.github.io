@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Margin, Border and Padding in CSS </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+
+    <div class="topnav">
+      <a class="active" href="../index.html">Home</a>
+      <a href="Journal-Articles.html">Journal Articles</a>
+      <a href="About.html">About</a>
+    </div>
+
+    <h1>The Difference Between Margin, Border and Padding.</h1>
+
+    <div>
+      <ul class="box-model-shortcuts">
+        <li><a href="#The-CSS-Box-Model">The CSS Box Model</a></li>
+        <li><a href="#Content">Content</a></li>
+        <li><a href="#Padding">Padding</a></li>
+        <li><a href="#Border">Border</a></li>
+        <li><a href="#Margin">Margin</a></li>
+      </ul>
+  </div>
+
+    <div>
+      <h2><a id="The-CSS-Box-Model">The CSS Box Model</a></h2>
+      <p>The CSS box model helps us understand the differences between padding, border and margin. The term "box model" is used when talking 
+      about design and layout in CSS. The CSS box model is essentially a box that wraps around every HTML element and consists of margins, borders, padding, and 
+      the actual content. It  allows us to add a border around elements and  define space between elements. The image below illustrates the box model:</p>
+
+      <figure>
+        <img class="box-model-image" src="http://image.slidesharecdn.com/css-boxmodel-130811120108-phpapp02/95/css-box-model-2-638.jpg?cb=1376222562" alt="CSS box model">
+        <figcaption>The CSS box model provided by Nicha Jutasirivongse on slideshare.net in 2013. <a href="https://www.slideshare.net/niciuzza/css-box-model-25142045"><em>See presentation here</em></a>
+        </figcaption>
+      </figure>
+
+      <p>I personally found <a href="https://www.youtube.com/watch?v=rIO5326FgPE">this video</a> extremely helpful when trying to learn what the CSS box model is.
+      If you haven't already, I highly recommend watching it.</p>
+    </div>
+    
+    <div>
+      <h2><a id="Content">So what is Content?</a></h2>
+      <p>The <b>content box</b> contains the "real" content of the element, such as text, an image, or a video. Everything created 
+     in HTML is essentially a box. The dimensions are defined by the content width and the content height and often has a background colour or background image. 
+     When writing text in HTML, this colour will automatically be white.</p>
+      <p>If the box-sizing property is set to content-box (default) and the element is a block element, the content area's size can be explicity defined with 
+      the width, min-width, max-width, height, min-height, and max-height properties.</p>
+    </div>
+
+    <div>
+      <h2><a id="Padding">What about Padding?</a></h2>
+      <p>The <b>padding area</b> is the space between the content and the edge of the box (to border). It clears an area around the content 
+      and is affected by the background colour of the box. Its dimensions are defined by <em>padding-box width</em> and the <em>padding-box height</em>.</p>
+      <p>The thickness of the padding is determined by the padding-top, padding-right, padding-bottom and padding-left properties.</p>
+    </div>
+
+    <div>
+      <h2><a id="Border">What is Border?</a></h2>
+      <p>The <b>border area</b> extends the padding area to include the element's borders, it is essentially the outside edge of the box. It is a border that goes around the 
+      padding and content and is affected by the background colour of the box. Its dimensions are the <em>border-box width</em> and the <em>border-box height</em>.</p>
+      <p>The thickness ofd the borders is determined by the border-width property. If the box-sizing property is set to border-box, then the border area's 
+        size can be defined with the width, min-width, max-width, height, min-height, and max-height properties. When there is a background colour or image set
+        on a box, it extends to the outer edge of the border.
+      </p>
+    </div>
+
+    <div>
+      <h2><a id="Margin">Lastly, what is Margin?</a></h2>
+      <p>The <b>margin area</b> extends the border area to include an empty area used to separate an element from its neighbours (other content or boxes). It is the 
+      empty area around the border and is completely transparent, it has no background colour by default. Its dimensions are the <em>margin-box width</em> and the <em>
+      margin-box height</em>.</p>
+      <p>The size of the margin area is determined by the margin-top, margin-right, margin-bottom and margin-left properties. </p>
+    </div>
+    <!-- this is a comment. -->
+  
+    <button><a href="Journal-Articles.html">Click here to return to Journal Articles</a></button>
+  </body>
+</html>
