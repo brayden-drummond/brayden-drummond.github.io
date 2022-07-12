@@ -177,3 +177,20 @@ padding-left: 40%;
   width: 40vw;
   display: inline-block;
 }
+
+/* Blog for problem-solving */
+
+.problem-solving-image {
+  height: 50vh;
+  width: 50vw;
+}
+
+.initial-fizzbuzz-solution {
+  height: 60vh;
+  width: 56vw;
+}
+
+.correct-fizzbuzz-solution {
+  height: 60vh;
+  width: 56vw;
+}
