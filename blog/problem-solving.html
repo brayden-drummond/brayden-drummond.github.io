@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My blog</title>
+    <meta charset="utf-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div id="page-container">
+
+      <div class="topnav">
+        <a class="active" href="../index.html">Home</a>
+        <a href="Journal-Articles.html">Dev Academy Blog</a>
+        <a href="About.html">About</a>
+      </div>
+      <div>
+        <h1>Problem-Solving Techniques</h1>
+        <h4 class="timestamp"><em>- Posted 13 July 2022, Brayden Drummond</em></h4>
+      </div>
+
+      <div clas="problem-solving-content">
+        <img class="problem-solving-image" src="../images/problem-solving.png" alt="Photo of Problem-Solving">
+        <h2>What was the problem I was stuck on?</h2>
+        <p>
+          I am going to tell you a story about a time where I was stuck on a simple problem, however I used the principles of problem-solving to help me through the solution. In short, the problem was that I was unable to have the FizzBuzz game work correctly in my coding in JavaScript. For those who do not know what the FizzBuzzgame is, it is a game where the console should log Fizz for all numbers that are multiples of 3, Buzz for for all numbers that are multiples of 5, and FizzBuzz for all numbers that are multiples of 3 and 5 (15).
+        </p>
+        <p>
+          After initially creating my code, I was unable to figure out where exactly my code was failing. 
+        </p>
+        <p>
+          Here is a snapshot of the code I initially created, see if you can spot the mistake:
+        </p>
+        <img class="initial-fizzbuzz-solution" src="../images/Initial-fizzbuzz-solution.JPG" alt="Initial FizzBuzz Solution">
+        <p>
+          When I first selected 'run', the console threw an error code at me ('ReferenceError: numberParameter is not defined). I was scratching my head for a trying to figure out why my code would not pass, as numberParameter was defined in the fizzbuzz function. After half an hour of sitting around reading through my code, I decided to move on to my task and return to this question later. Before taking my next break, I returned to the problem and left comments for myself, console logging at different stages of the codeand even googling see if I could figure out why I was getting an error message. And yes, everything was working well up until the point of the TypeError. I then decided to take a break.
+        </p>
+        <h2>How did I manage to solve this solution?</h2>
+        <p>
+          As above, I already employed the problem-solving techniques of reading error messages, googling, console.logging and pseudocode, however it was time to try another technique.
+        </p>
+        <p>
+          Upon returning to the problem, I then decided to talk out loud to myself through the problem and each stage of the code (employing the rubber duck method) to see if this would help me. Surprisingly, this helped, and I realised I was defining the wrong parameter in the second function. I should have been defining arrayParameter instead of numberParameter.
+        </p>
+        <p>
+          Here is the correct solution below:
+        </p>
+        <img class="correct-fizzbuzz-solution" src="../images/correct-fizzbuzz-solution.jpg" alt="Correct FizzBuzz Solution">
+        <p>
+          What I learnt from this was that rather than sitting around scratching our head, it is a good idea to take a break and that talking through the problem out loud is always helpful.
+        </p>
+        <h2>Which problem-solving techniques do I feel confident with using?</h2>
+        <p>
+          I am really confident with using the following problem-solving technqiues:
+        </p>
+        <ul class="problem-solving-list">
+          <li>Pseudocode</li>
+          <li>Trying something</li>
+          <li>Rubber Ducky Method</li>
+          <li>Reading error messages</li>
+          <li>Console.logging</li>
+          <li>Googling</li>
+        </ul>
+        <p>
+          On the other hand, I am aware however that I need to work on the follow problem-solving techniques:
+        </p>
+        <ul class="problem-solving-list">
+          <li>Asking my peers for help</li>
+          <li>Ash my coaches for help</li>
+          <li>Improving my process through self-reflections</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </body>
+</html>
