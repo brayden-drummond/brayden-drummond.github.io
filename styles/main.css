@@ -1,6 +1,6 @@
 body {
   background-color: rgba(255, 255, 255, 0.849);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-family: "Plus Jakarta Display", sans-serif;
 }
 
 /* For footer */
@@ -19,9 +19,13 @@ body {
   font-size: 12pt;
 }
 
+/* For topnav bar */
 .topnav {
   background-color: rgba(0, 0, 0, 0.715);
   overflow: hidden;
+  position:sticky;
+  top: 0;
+  z-index: 100;
   
 }
 
@@ -40,7 +44,7 @@ body {
 }
 
 li {
-  font-size: 14pt;
+  font-size: 13pt;
   Margin-bottom: 10px;
 }
 
@@ -50,7 +54,7 @@ h2 {
 }
 
 p {
-  font-size: 14pt;
+  font-size: 13pt;
 
   }
 
@@ -133,14 +137,14 @@ padding-left: 40%;
   
   }
 
-  .footer-about {
+.footer-about {
     text-align: center;
     font-size: 12pt;
   }
 
   /* For all blog posts formatting*/
 
-  .timestamp {
+.timestamp {
     margin-bottom: 3%;
   }
 /* Blog 1 (The Difference between Margin, Border and Padding) */
@@ -156,4 +160,20 @@ padding-left: 40%;
   width: 70%;
   margin-top: 5%;
   position: left;
+}
+
+/* Blog 2 (JavaScript and the DOM */
+
+.javascript-shortcuts {
+  list-style-type: none;
+  list-style-position: outside;
+  Margin-bottom: 10px;
+}
+
+/* Blog for neuroplasticity */
+
+.neuroplasticity-image {
+  height: 40vh;
+  width: 40vw;
+  display: inline-block;
 }
