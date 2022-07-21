@@ -117,29 +117,31 @@ padding-left: 40%;
 
 }
 
+#about-container {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 2%;
+}
+
 .image-1 {
-  width: 18%;
-  height: 18%;
+  width: 20%;
+  height: 20%;
   float: left;
-  margin-left: 30px;
+  margin-left: 1%;
   padding-top: 1%
 }
 
-.mihi {
-  list-style-type: None;
-  display: inline-block;
-  text-align: center;
-
+.about-text {
+  text-align: justify;
+  margin-left: 23%;
 }
-
-.Welcome-to-my-blog {
-  padding-top: 7%;
-  
-  }
 
 .footer-about {
     text-align: center;
     font-size: 12pt;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 
   /* For all blog posts formatting*/
@@ -193,4 +195,49 @@ padding-left: 40%;
 .correct-fizzbuzz-solution {
   height: 60vh;
   width: 56vw;
+}
+
+/* New blog home page */
+
+.row {
+  box-sizing: border-box;
+  margin: 1%;
+  padding: 1%;
+  padding-bottom: 20%;
+}
+
+.sprint-box-left {
+  float: left;
+  border-style: solid;
+  border-color: black;
+  border-radius: 0.5cm;
+  height: 40vh;
+  width: 92vh;
+}
+
+.sprint-box-right {
+  float: right;
+  border-style: solid;
+  border-color: black;
+  border-radius: 0.5cm;
+  height: 40vh;
+  width: 92vh;
+}
+
+#blog-home-headings {
+  font-size: 24pt;
+  padding-left: 2%;
+}
+
+.sprint-text {
+  padding-left: 2%;
+}
+
+.blog-footer {
+  text-align: center;
+  color:rgb(2, 0, 0);
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  font-size: 12pt;
 }
